@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:background="@drawable/bg_white_corner_16"
+    android:layout_margin="16dp"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+
+    <LinearLayout
+        android:orientation="vertical"
+        android:padding="16dp"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <EditText
+            android:id="@+id/edt_add_address"
+            android:background="@drawable/bg_white_corner_10_border_gray"
+            android:layout_marginTop="16dp"
+            android:hint="Nhập địa chỉ..."
+            android:layout_marginBottom="5dp"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"/>
+        <LinearLayout
+            android:background="@drawable/bg_white_corner_10_border_gray"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:padding="12dp"
+            android:textStyle="bold"
+            android:text="Phương thức giao hàng"
+            android:textAlignment="center" />
+
+        <com.jaredrummler.materialspinner.MaterialSpinner
+            android:id="@+id/edt_add_spinner"
+            android:background="@drawable/bg_white_corner_10_border_gray"
+            android:layout_marginTop="16dp"
+            android:hint="Nhập mô tả..."
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:padding="12dp"/>
+            <EditText
+                android:id="@+id/edt_add_commment"
+                android:background="@drawable/bg_white_corner_10_border_gray"
+                android:layout_marginTop="16dp"
+                android:hint="Nhập ghi chú..."
+                android:layout_marginBottom="5dp"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:padding="12dp"/>
+        </LinearLayout>
+        <LinearLayout
+            android:background="@drawable/bg_white_corner_10_border_gray"
+            android:layout_below="@+id/order_info"
+            android:orientation="vertical"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+            <TextView
+                android:layout_margin="5dp"
+                android:textAlignment="center"
+                android:text="Phương thức thanh toán"
+                android:padding="12dp"
+                android:textStyle="bold"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/rdb_paypal"
+                android:text="Paypal"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+            <RadioButton
+                android:id="@+id/rdb_cod"
+                android:text="Thanh toán trực tiếp"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"/>
+        </LinearLayout>
+    </LinearLayout>
+</LinearLayout>

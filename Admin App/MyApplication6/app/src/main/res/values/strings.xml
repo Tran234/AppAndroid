@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">Foods App(Admin)</string>
+    <string name="name_nav_home">Quản lý thực đơn</string>
+    <string name="name_nav_cart">Quản lý ảnh bìa</string>
+    <string name="name_nav_order">Quản lý đơn</string>
+    <string name="name_nav_log_out">Đăng xuất</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+</resources>

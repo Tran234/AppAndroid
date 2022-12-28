@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">Foods App</string>
+    <string name="nav_home">Thực đơn</string>
+    <string name="nav_cart">Giỏ hàng</string>
+    <string name="nav_orders">Đơn hàng</string>
+    <string name="nav_change_acount">Tài khoản</string>
+    <string name="nav_change_password">Đổi mật khẩu</string>
+    <string name="nav_log_out">Đăng xuất</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+</resources>
